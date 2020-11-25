@@ -4,11 +4,12 @@ const ropsten = require('./tokens/ropsten.json');
 const rinkeby = require('./tokens/rinkeby.json');
 const goerli = require('./tokens/goerli.json');
 const kovan = require('./tokens/kovan.json');
+const thundercore = require('./tokens/thundercore.json');
 
 module.exports = function buildList() {
   const parsed = version.split('.');
   return {
-    'name': 'Uniswap Default List',
+    'name': 'Zingswap Default List',
     'timestamp': (new Date().toISOString()),
     'version': {
       'major': +parsed[ 0 ],
@@ -18,7 +19,7 @@ module.exports = function buildList() {
     'tags': {},
     'logoURI': 'ipfs://QmNa8mQkrNKp1WEEeGjFezDmDeodkWRevGFN8JCV7b4Xir',
     'keywords': [
-      'uniswap',
+      'zingswap',
       'default'
     ],
     tokens: [
@@ -26,7 +27,8 @@ module.exports = function buildList() {
       ...ropsten,
       ...goerli,
       ...kovan,
-      ...rinkeby
+      ...rinkeby,
+      ...thundercore
     ]
       // sort them by symbol for easy readability
       .sort((t1, t2) => {
