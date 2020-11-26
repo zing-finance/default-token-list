@@ -1,6 +1,6 @@
 {
   "name": "zingswap-default-token-list",
-  "version": "1.5.0",
+  "version": "2.5.0",
   "description": "◦ The Zingswap default token list",
   "main": "build/zingswap-default.tokenlist.json",
   "scripts": {
