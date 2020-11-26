@@ -1,34 +1,26 @@
 [
-    {
-      "name": "Wrapped Thundercore",
-      "address": "0x02C76383DD003262a595ef20B842fD130F40371C",
-      "symbol": "wTT",
-      "decimals": 18,
-      "chainId": 108,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/blob/master/blockchains/thundertoken/info/logo.png"
-    },
-    {
-      "name": "USDT",
-      "address": "0x4f3C8E20942461e2c3Bdd8311AC57B0c222f2b82",
-      "symbol": "TT-USDT",
-      "decimals": 18,
-      "chainId": 108,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/blob/master/blockchains/thundertoken/assets/0x4f3C8E20942461e2c3Bdd8311AC57B0c222f2b82/logo.png"
-    },
-    {
-      "name": "Wrapped Bitcoin",
-      "address": "0x18fB0A62f207A2a082cA60aA78F47a1af4985190",
-      "symbol": "TT-wBTC",
-      "decimals": 18,
-      "chainId": 108,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/blob/master/blockchains/thundertoken/assets/0x18fB0A62f207A2a082cA60aA78F47a1af4985190/logo.png"
-    },
-    {
-      "name": "USDC",
-      "address": "0x22e89898A04eaf43379BeB70bf4E38b1faf8A31e",
-      "symbol": "TT-USDC",
-      "decimals": 18,
-      "chainId": 108,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/blob/master/blockchains/thundertoken/assets/0x22e89898A04eaf43379BeB70bf4E38b1faf8A31e/logo.png"
-    }
-  ]
+  {
+    "name": "Wrapped Thundercore",
+    "address": "0x02C76383DD003262a595ef20B842fD130F40371C",
+    "symbol": "WTT",
+    "decimals": 18,
+    "chainId": 108,
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/blob/master/blockchains/thundertoken/info/logo.png"
+  },
+  {
+    "name": "USDT",
+    "address": "0x4f3C8E20942461e2c3Bdd8311AC57B0c222f2b82",
+    "symbol": "TTUSDT",
+    "decimals": 18,
+    "chainId": 108,
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/blob/master/blockchains/thundertoken/assets/0x4f3C8E20942461e2c3Bdd8311AC57B0c222f2b82/logo.png"
+  },
+  {
+    "name": "USDC",
+    "address": "0x22e89898A04eaf43379BeB70bf4E38b1faf8A31e",
+    "symbol": "TTUSDC",
+    "decimals": 18,
+    "chainId": 108,
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/blob/master/blockchains/thundertoken/assets/0x22e89898A04eaf43379BeB70bf4E38b1faf8A31e/logo.png"
+  }
+]
